@@ -1,0 +1,26 @@
+<!--pages/pagesXy/video/video.wxml-->
+<image class="bg" src="https://wx4.sinaimg.cn/large/005HOofigy1fkmtlarzrbj30zf1aewrj.jpg" mode="aspectFill"></image>
+
+
+<view class="main" hover-class="none" hover-stop-propagation="false">
+    <view bindtap="openVideo1">昕羊带你吃遍全世界
+        <text class="" selectable="false" space="false" decode="false">
+            更新至21集
+        </text>
+    </view>
+    <view bindtap="openVideo2">生日公演
+        <text class="" selectable="false" space="false" decode="false">
+            更新至2019年
+        </text>
+    </view>
+    <view bindtap="openVideo3">《寒夜》
+        <text class="" selectable="false" space="false" decode="false">
+            更新至14集
+        </text>
+    </view>
+    <view bindtap="openVideo4">更多精彩
+        <text class="" selectable="false" space="false" decode="false">
+            还未更新
+        </text>
+    </view>
+</view>

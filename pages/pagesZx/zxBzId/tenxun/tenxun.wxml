@@ -1,0 +1,23 @@
+<!--pages/pagesZx/zxBzId/tenxun/tenxun.wxml-->
+
+<txv-video 
+  vid="{{vid}}" playerid="txv1" width="100%" height="auto" autoplay="true" title="{{title}}"> 
+</txv-video>
+
+<view class="text" hover-class="none" hover-stop-propagation="false">
+
+<image class="bg" src="https://wx2.sinaimg.cn/mw1024/005HP8IYgy1g82unar4u4j33gg56o7wl.jpg" mode="widthFix">
+  </image>
+
+  <view class="wenzi">
+    <text class="">
+  温馨提示：\n 
+  如果您想第一时间观看到张昕自制的视频 \n 
+  那么还请自行下载安装"哔哩哔哩"APP \n 
+  然后搜索关注UP主 紫菜xixixi \n
+    </text>
+  </view>
+  
+</view>
+
+

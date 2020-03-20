@@ -1,0 +1,144 @@
+/* pages/xyyz/xyyz.wxss */
+
+
+/* 背景图片 */
+
+.bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+/* 最上面的导航栏 */
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 80rpx;
+    font-weight: 800;
+    font-size: 40rpx;
+    padding-top: 16rpx;
+    color: #7FFFD4;
+}
+
+.nav1_color {
+    color: #fff;
+}
+
+.nav2_color {
+    color: #fff;
+}
+
+
+/* 滑动部分 */
+
+.mainBox {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+
+/* 去除滚动条 */
+
+scroll-view ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+}
+
+.bigMoveDad {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.bigMove {
+    white-space: nowrap;
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.nav1_contentBox,
+.nav2_contentBox {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.nav1_content,
+.nav2_content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #7FFFD4;
+    border-radius: 2% 2% 0 0;
+    opacity: 0;
+    border: 2rpx solid #ccc;
+}
+
+.nav1_content {
+    text-align: center;
+    font-size: 25rpx;
+    font-weight: 100;
+    color: #7FFFD4;
+}
+
+.nav1_content .zxInfo {
+    text-align: left;
+    font-size: 34rpx;
+    font-weight: 800;
+    color: #ffffff!important;
+    opacity: 1!important;
+}
+
+.nav2_content {
+    text-align: center;
+    font-size: 25rpx;
+    font-weight: 100;
+    color: #D15246;
+}
+
+.nav2_content view {
+    position: relative;
+    padding: 10rpx 30rpx 10rpx 30rpx;
+    background: #D15246 no-repeat;
+    opacity: 1;
+    border-bottom: 2rpx solid #fff;
+    color: #7FFFD4;
+    font-size: 50rpx;
+    font-weight: 800;
+    text-align: left;
+}
+
+.nav2_content view:nth-child(1) {
+    border: 0;
+}
+
+.nav2_content view image {
+    position: absolute;
+    top: 18rpx;
+    right: 15rpx;
+    float: right;
+    height: 50rpx;
+    width: 50rpx;
+}
+
+.nav1_content .zxInfoJJ {
+    font-weight: 100;
+    color: #D15246;
+    opacity: 1;
+}
+
+.nav1_content .zxInfo {
+    padding: 0 30rpx;
+}

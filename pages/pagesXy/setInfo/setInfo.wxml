@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+	<image src="{{src}}" class="images" bindtap="src"></image>
+
+		<view class="day">
+			<view class="text" hover-class="none" hover-stop-propagation="false">
+				距离昕羊入团
+				已经过去了
+			</view>
+			<text wx:if="{{days}}" class="keyBox">{{days}}<text class="key">天</text>{{H}}<text  class="key">时</text>{{M}}<text  class="key">分</text>{{S}}<text  class="key">秒</text></text>
+		</view>
+
+		<view class="money">
+			<image src="{{imgalist}}" bindtap="money"></image>
+			<text>点击上图 长按 识别二维码进行打赏</text>
+		</view>
+
+		<view class="Sky">
+			<text>此小程序的最终解释权归 一米七的Sky 所有</text>
+		</view>
+</view>
+

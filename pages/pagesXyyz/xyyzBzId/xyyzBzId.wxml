@@ -1,0 +1,29 @@
+<!--pages/pagesZx/zxBzId/zxBzId.wxml-->
+
+<!-- 头部 -->
+<header>
+    <image class="" src="//i0.hdslb.com/bfs/face/03bfb394c6f0504f56f83438bfac611d812f9ac2.jpg_64x64.jpg"></image>
+    <view class="name">
+        许杨玉琢最聪明
+    </view>
+</header>
+
+<!-- 播放视频插件 -->
+
+
+<!-- 主体部分 -->
+<view class="box">
+    <scroll-view class="liBox" scroll-y="true" scroll-with-animation="true" enable-back-to-top="true" scroll-anchoring="true">
+        <view class="boxli" wx:for="{{res}}" wx:key="{{index}}">
+            <view class="video" bindtap="openTenxun" data-value1="{{item.url}}" data-value2="{{item.title}}">
+                <image src="{{item.src}}" mode="aspectFill"></image>
+                <view>
+                    <view class="textHeader">{{item.title}}</view>
+                    <view class="time">{{item.time}}</view>
+                </view>
+                
+            </view>
+        </view>
+        没有更多啦...
+    </scroll-view>
+</view>

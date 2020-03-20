@@ -1,0 +1,31 @@
+<!--pages/xy/xy.wxml-->
+<image class="bg" src="https://ww4.sinaimg.cn/mw1024/005HP8IYgw1f6vx77kh2dj31921wqkg8.jpg" mode="aspectFill"></image>
+
+<view class="main" hover-class="none" hover-stop-propagation="false">
+	<view class="xy-header">
+		<image src="../../images/weather1.png" class="weatherImage" bindtap="openWeather"></image>
+
+		<view bindtap="openUserInfo" class="img">
+			<open-data type="userAvatarUrl" default-avatar=""></open-data>
+		</view>
+	</view>
+
+	<view class="foot">
+		<view class="footl" bindtap="openPhoto">
+			<image class="imgl" src="../../images/xy3.2.png" mode="widthFix"></image>
+			<view class="textl" hover-class="none" hover-stop-propagation="false">
+				照片
+			</view>
+		</view>
+		<view class="footr" bindtap="openVideo">
+			<image class="imgr" src="../../images/xy3.1.png" mode="widthFix"></image>
+			<view class="textr" hover-class="none" hover-stop-propagation="false">
+				视频
+			</view>
+		</view>
+	</view>
+		
+</view>
+
+
+

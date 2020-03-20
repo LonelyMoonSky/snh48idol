@@ -1,0 +1,77 @@
+<!--pages/xyyz/xyyz.wxml-->
+
+<!-- 背景图片 -->
+<image class="bg" src="https://wx1.sinaimg.cn/mw1024/005HOofily1g8gmh0zwv5j322o340u0x.jpg" mode="aspectFill" binderror="" bindload="" animation="{{bgAnimation}}">
+
+</image>
+
+<view class="mainBox" hover-class="none" hover-stop-propagation="false">
+<!-- 最上面的导航栏 -->
+<view class="nav">
+    <view class="nav1 {{nav1_color}}" hover-class="none" hover-stop-propagation="false" bindtap="nav_positionOne">
+        简介
+    </view>
+    <view class="nav2 {{nav2_color}}" hover-class="none" hover-stop-propagation="false" bindtap="nav_positionTwo">
+        应援
+    </view>
+</view>
+
+<!-- 滑动部分 -->
+<view class="bigMoveDad" hover-class="none" hover-stop-propagation="false">
+
+<scroll-view class="bigMove" scroll-x="true" upper-threshold="50" lower-threshold="50" 
+    scroll-into-view="nav_position{{index}}" scroll-with-animation="true" 
+    bindscrolltoupper="scroll_l" bindscrolltolower="scroll_r" bindscroll="" scroll-left="">
+
+    <view class="nav1_contentBox" hover-class="none" hover-stop-propagation="false" id="nav_position1">
+        <view class="nav1_content" hover-class="none" hover-stop-propagation="false" animation="{{navOneAnimation}}">
+            .
+            <text class="zxInfo" selectable="false" space="false" decode="true">
+                昵称&nbsp;&nbsp;<text class="zxInfoJJ">绵羊</text>
+                身高&nbsp;&nbsp;<text class="zxInfoJJ">163</text>
+                血型&nbsp;&nbsp;<text class="zxInfoJJ">A</text>
+                生日&nbsp;&nbsp;<text class="zxInfoJJ">09.25</text>
+                星座&nbsp;&nbsp;<text class="zxInfoJJ">天秤座</text>
+                出生地&nbsp;&nbsp;<text class="zxInfoJJ">中国 湖南</text>
+                个人特长&nbsp;&nbsp;<text class="zxInfoJJ">舞蹈 rap</text>
+                兴趣爱好&nbsp;&nbsp;<text class="zxInfoJJ">游泳 吃</text>
+                加入时间&nbsp;&nbsp;<text class="zxInfoJJ">2014-07-26</text>
+                加入所属&nbsp;&nbsp;<text class="zxInfoJJ">SNH48 三期生</text>
+                最终所属&nbsp;&nbsp;<text class="zxInfoJJ">SNH48 H队（TEAM HII）</text>
+                所属公司&nbsp;&nbsp;<text class="zxInfoJJ">上海丝芭文化传媒集团有限公司</text>
+            </text>
+
+        </view>
+
+    </view>
+
+    <view class="nav2_contentBox" hover-class="none" hover-stop-propagation="false" id="nav_position2">
+        <view class="nav2_content" hover-class="none" hover-stop-propagation="false" animation="{{navTwoAnimation}}">
+            欢迎加入: SNH48-许杨玉琢应援会
+            <view class="qqqh" bindtap="openQqqh">
+					应援会QQ群:	385250797
+					<image src="../../images/jiantou_r1.png" mode="aspectFit"></image>
+                </view>
+                
+            <view class="wbCh" bindtap="openWbCh">
+					上周精选: 十佳美图
+					<image src="../../images/jiantou_r1.png" mode="aspectFit"></image>
+                </view>
+                
+            <view class="bzId" hover-class="none" hover-stop-propagation="false" bindtap="openBzId">
+                哔哩哔哩: 许杨玉琢最聪明
+					<image src="../../images/jiantou_r1.png" mode="aspectFit"></image>
+            </view>
+             
+            <view class="wbId" hover-class="none" hover-stop-propagation="false" bindtap="openWbId">
+                     微博: SNH48-许杨玉琢
+					<image src="../../images/jiantou_r1.png" mode="aspectFit"></image>
+            </view>
+            
+        </view>
+
+    </view>
+    
+</scroll-view>
+</view>
+</view>

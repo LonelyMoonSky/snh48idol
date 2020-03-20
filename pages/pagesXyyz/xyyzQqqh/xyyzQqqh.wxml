@@ -1,0 +1,13 @@
+<!--pagesXyyz/xyyzQqqh/xyyzQqqh.wxml-->
+<view class="main" hover-class="none" hover-stop-propagation="false">
+    <text class="header">
+        欢迎大家加入\nSNH48-许杨玉琢应援会
+    </text>
+    <image class="img" src="{{src}}" mode="aspectFit" bindtap="img"></image>
+    <text class="foot" selectable="true">
+        385250797
+    </text>
+    <view class="footer" hover-class="none" hover-stop-propagation="false">
+        数字为应援会群号，长按即可选中复制
+    </view>
+</view>

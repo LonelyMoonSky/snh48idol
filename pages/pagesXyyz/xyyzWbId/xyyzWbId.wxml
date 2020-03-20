@@ -1,0 +1,26 @@
+<!--pagesXyyz/xyyzWbId/xyyzWbId.wxml-->
+<view class="box" hover-class="none" hover-stop-propagation="false">
+    <image class="headImg" src="https://tvax1.sinaimg.cn/crop.0.0.1080.1080.180/005HOofily8g94e2rrs61j30u00u0grp.jpg?KID=imgbed,tva&Expires=1574602396&ssig=sqFfsViwyG" mode="aspectFill">
+    </image>
+    <view class="name" hover-class="none" hover-stop-propagation="false">
+        SNH48-许杨玉琢
+    </view>
+    <view class="content" hover-class="none" hover-stop-propagation="false">
+        <text class="" selectable="false" space="false" decode="false">
+            22名\n以后比耶✌🏿都会更有意义\n我们做到了❤️\n
+        </text>
+        <view class="imgbox">
+            <view class="" wx:for="{{src}}" wx:key="*this">
+                <image class="img" src="{{item}}" mode="aspectFill" bindtap="down" data-index="{{index}}"></image>
+            </view>
+        </view>
+            
+        
+        <view class="time" hover-class="none" hover-stop-propagation="false">
+            2019-08-23 23:14
+        </view>
+    </view>
+    <text class="foot" hover-class="none" hover-stop-propagation="false">
+        更多精彩内容\n请前往"微博"关注 SNH48-许杨玉琢
+    </text>
+</view>

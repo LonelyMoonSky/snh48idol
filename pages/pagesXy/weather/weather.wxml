@@ -1,0 +1,39 @@
+<!-- 页面容器 -->
+<view class="container">
+	<!-- 自动获取定位和天气按钮 -->
+		<movable-view class="switch">
+			<switch checked="{{isChecked}}" bindchange="switchChange">自动</switch>
+		</movable-view>
+		
+	<!-- 地区选择器 -->
+	<picker mode="region" bindchange="changeRegion">
+		<view>{{region}}</view>
+	</picker>
+	<!-- 文本区域  -->
+	<text>{{now.tmp}}℃ {{now.cond_txt}}</text>
+	<!-- 图片区域 -->
+	<image src="https://cdn.heweather.com/cond_icon/{{now.cond_code}}.png" class="img"></image>
+	<!-- 区域四 详细天气信息-->
+	<view class="detail">
+		<view class="bar">
+			<view class="box">湿度</view>
+			<view class="box">气压</view>
+			<view class="box">能见度</view>
+		</view>
+		<view class="bar">
+			<view class="box">{{now.hum}}%</view>
+			<view class="box">{{now.pres}}hPa</view>
+			<view class="box">{{now.vis}}Km</view>
+		</view>
+		<view class="bar">
+			<view class="box">风向</view>
+			<view class="box">风速</view>
+			<view class="box">风力</view>
+		</view>
+		<view class="bar">
+			<view class="box">{{now.wind_dir}}</view>
+			<view class="box">{{now.wind_spd}}Km/h</view>
+			<view class="box">{{now.wind_sc}}级</view>
+		</view>
+	</view>
+</view>

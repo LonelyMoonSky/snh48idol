@@ -1,0 +1,18 @@
+<!--pages/pagesZx/zxWbCh/zxWbCh.wxml-->
+<view class="main" hover-class="none" hover-stop-propagation="false">
+    <text class="header" selectable="false" space="false" decode="false">
+        SNH48-张昕
+    </text>
+    <text class="header1" selectable="false" space="false" decode="false">
+        下列图片均来源于微博
+    </text>
+</view>
+    <swiper class="imgs" indicator-dots="true" indicator-color="rgba(127,255,212,.3)" indicator-active-color="#D15246" autoplay="true" interval="5000" circular="true" >
+    <block wx:for="{{res}}" wx:key="*this">
+        <swiper-item bindtap="down" data-index="{{index}}">
+            <image class="img" src="{{item}}" mode="aspectFit"></image>
+        </swiper-item>
+    </block>
+        
+    </swiper>
+
