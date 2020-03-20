@@ -12,7 +12,7 @@ Page({
         H: 5,
         M: 2,
         S: 0,
-        imgalist: ["http://b191.photo.store.qq.com/psb?/V12aMNdl3T0WQr/zvPfxThdExq7zPugU2DcPOucVNC0p9o5Rnu21iLARo8!/c/dL8AAAAAAAAA&bo=DQQNBA0EDQQRADc!&rf=mood_app&t=5"],
+      imageItem: ["http://a1.qpic.cn/psc?/V12aMNdl3T0WQr/0PrhSz*Kk2tvG8E8u*h5wlWGZlPPOqEH6i88qPor2OmeWfKtE3Nco7HzbKVFSBIwjOvmh4teN3vDnckAcakkhw!!/c&ek=1&kp=1&pt=0&bo=9QEMAvUBDAIRADc!&tl=3&vuin=1370344136&tm=1584694800&sce=60-2-2&rf=0-0"],
         year: 2015,
         num: 154,
         run: [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31],
@@ -21,8 +21,8 @@ Page({
     },
     money: function(e) {
         wx.previewImage({
-            current: this.data.imgalist,
-            urls: this.data.imgalist,
+            current: this.data.imageItem,
+            urls: this.data.imageItem,
         })
     },
     src: function(e) {

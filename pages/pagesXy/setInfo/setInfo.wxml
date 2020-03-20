@@ -11,8 +11,8 @@
 		</view>
 
 		<view class="money">
-			<image src="{{imgalist}}" bindtap="money"></image>
-			<text>点击上图 长按 识别二维码进行打赏</text>
+			<image src="{{imageItem}}" bindtap="money"></image>
+			<text>本人B站的二维码*不定时更新安利视频</text>
 		</view>
 
 		<view class="Sky">
