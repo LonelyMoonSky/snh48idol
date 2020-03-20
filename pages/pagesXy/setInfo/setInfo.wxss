@@ -1,0 +1,61 @@
+/**index.wxss**/
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.images {
+    width: 400rpx;
+    height: 400rpx;
+    border-radius: 20%;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.day .text {
+    font-size: 42rpx;
+    font-weight: 400;
+    margin-bottom: 10rpx;
+    color: #D15246;
+}
+
+.day text {
+    font-size: 60rpx;
+}
+
+.money {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.money image {
+    width: 600rpx;
+    height: 600rpx;
+    border-radius: 5%;
+}
+
+.money text {
+    margin-top: 10rpx;
+    font-weight: 800;
+}
+
+.Sky text {
+    font-size: 25rpx;
+}
+
+.keyBox {
+    color: #D15246;
+}
+
+.key {
+    color: #7FFFD4;
+}

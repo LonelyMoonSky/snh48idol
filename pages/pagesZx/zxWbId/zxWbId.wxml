@@ -1,0 +1,26 @@
+<!--pages/pagesZx/zxWbId/zxWbId.wxml-->
+<view class="box" hover-class="none" hover-stop-propagation="false">
+    <image class="headImg" src="https://tvax1.sinaimg.cn/crop.0.0.1080.1080.180/005HP8IYly8g85xmiq0iaj30u00u0wgd.jpg?KID=imgbed,tva&Expires=1574573562&ssig=opTQf%2BWg65" mode="aspectFill">
+    </image>
+    <view class="name" hover-class="none" hover-stop-propagation="false">
+        SNH48-张昕
+    </view>
+    <view class="content" hover-class="none" hover-stop-propagation="false">
+        <text class="" selectable="false" space="false" decode="false">
+            好消息好消息 20名 435220.5票！\n我们终于实现目标了！拥有了姓名！\n谢谢饭团们还有B站的粉丝！\n真的好惊喜好惊喜！\n我今天是幸福女人！\n第五年的夏天我们进圈了！还是UG！\n
+        </text>
+        <view class="imgbox">
+            <view class="" wx:for="{{src}}" wx:key="*this">
+                <image class="img" src="{{item}}" mode="aspectFill" bindtap="down" data-index="{{index}}"></image>
+            </view>
+        </view>
+            
+        
+        <view class="time" hover-class="none" hover-stop-propagation="false">
+            2019-07-27 23:35
+        </view>
+    </view>
+    <text class="foot" hover-class="none" hover-stop-propagation="false">
+        更多精彩内容\n请前往"微博"关注 SNH48-张昕
+    </text>
+</view>

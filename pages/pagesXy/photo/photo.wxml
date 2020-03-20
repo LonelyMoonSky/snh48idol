@@ -1,0 +1,6 @@
+<!--pages/pagesXy/photo/photo.wxml-->
+<view class="main">
+    <li wx:for="{{src}}" wx:key="*this">
+        <image src="{{item}}" mode="aspectFill" bindtap="down" data-index="{{index}}"></image>
+    </li>
+</view>

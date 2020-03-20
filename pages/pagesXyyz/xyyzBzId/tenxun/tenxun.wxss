@@ -1,0 +1,28 @@
+/* pages/pagesZx/zxBzId/tenxun/tenxun.wxss */
+
+.text {
+    width: 100%;
+    display: flex;
+}
+
+.bg {
+    position: absolute;
+    height: 50vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.wenzi {
+    padding: 0 20rpx 0 50rpx;
+    z-index: 999;
+    background-color: #D15246;
+    opacity: .6;
+    margin-top: 540rpx;
+    border-radius: 0 2% 2% 0;
+}
+
+text {
+    font-weight: 600;
+    font-size: 30rpx;
+    color: #fff;
+}

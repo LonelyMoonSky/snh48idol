@@ -1,0 +1,43 @@
+/* pages/weather/weather.wxss */
+/* 页面容器 */
+.container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-around;
+	padding: 100rpx 0;
+}
+/* 地区选择器 */
+
+/* 文本区域 */
+text {
+	font-size: 80rpx;
+	color: #3C5F81;
+}
+/* 图片区域 */
+image {
+	width: 220rpx;
+	height: 220rpx;
+}
+/* 区域四 详细天气信息 */
+.detail {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.bar {
+	display: flex;
+	flex-direction: row;
+	margin: 20rpx 0;
+	
+}
+.box {
+	width: 33.3%;
+	text-align: center;
+}
+
+.switch {
+	margin: 40rpx;
+	text-align: center;
+}

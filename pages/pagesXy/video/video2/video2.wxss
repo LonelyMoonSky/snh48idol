@@ -1,0 +1,76 @@
+/* pages/pagesXy/video/video1/video1.wxss */
+
+.name {
+    height: 100rpx;
+    font-weight: 800;
+    font-size: 50rpx;
+    text-align: center;
+    line-height: 100rpx;
+    color: #D15246;
+    background-color: pink;
+}
+
+.box {
+    margin-bottom: 20rpx;
+    padding-top: 10rpx;
+    height: 90vh;
+    color: #ccc;
+}
+
+.liBox {
+    width: 100%;
+    height: 100%;
+    font-size: 30rpx;
+    font-weight: 100;
+    text-align: center;
+}
+
+.boxli {
+    display: flex;
+    flex-direction: column;
+    margin: 10rpx 0 0 0;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    height: 172rpx;
+    color: #000;
+}
+
+.boxli:last-child {
+    border: 0;
+}
+
+.video {
+    display: flex;
+    padding-left: 20rpx;
+}
+
+.video image {
+    height: 162rpx;
+    width: 288rpx;
+    margin-right: 10rpx;
+    border-radius: 2%;
+}
+
+.video view {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 160rpx;
+    width: 400rpx;
+    font-size: 30rpx;
+    font-weight: 500;
+    text-align: left;
+}
+
+.video .textHeader {
+    font-size: 30rpx;
+    height: 146rpx;
+    font-weight: 400;
+}
+
+.video .time {
+    height: 20rpx;
+    text-align: right;
+    font-size: 20rpx;
+    color: #ccc;
+}

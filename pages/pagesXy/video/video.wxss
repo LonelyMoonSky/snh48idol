@@ -1,0 +1,44 @@
+/* pages/pagesXy/video/video.wxss */
+
+.bg {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: blur(8rpx);
+    -webkit-filter: blur(8rpx);
+    transform: scale(1.06);
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main view {
+    position: relative;
+    height: 20vh;
+    width: 100%;
+    background-color: rgba(209, 82, 70, .1);
+    line-height: 20vh;
+    text-align: center;
+    font-size: 70rpx;
+    font-weight: 800;
+    color: pink;
+}
+
+.main view text {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+    line-height: 5vh;
+    font-size: 30rpx;
+    font-weight: 200;
+    color: #fff;
+}
